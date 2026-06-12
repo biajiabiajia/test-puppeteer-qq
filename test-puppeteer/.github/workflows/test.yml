@@ -12,5 +12,5 @@ jobs:
         with:
           node-version: '20'
       - run: npm install puppeteer@21.0.0
-      - run: node test-qq-news.js
+      - run: node test-puppeteer/test-qq-news.js
         timeout-minutes: 3
